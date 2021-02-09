@@ -49,4 +49,7 @@ You must configure the following environment variables:
 
 ### Running the Script
 
+The script is designed to run as a [Google Cloud Function](https://cloud.google.com/functions/docs/quickstart-python).
+
+You can also modify the script to run in any python script by calling the `fetch_twitter_metrics)` function.
 ``python3 main.py``
