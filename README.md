@@ -7,7 +7,6 @@ The script creates a dataset called `twitter` and two tables: `public_metrics` a
 
 
 #### `public_metrics`
-================
 * id
 * created_at	
 * text	
@@ -19,7 +18,6 @@ The script creates a dataset called `twitter` and two tables: `public_metrics` a
 * fetch_date
 
 #### `non_public_organic_metrics`
-============================
 * id
 * text
 * created_at
@@ -44,10 +42,10 @@ The script creates a dataset called `twitter` and two tables: `public_metrics` a
 
 You must configure the following environment variables:
 
-``API_KEY - Twitter API key<br>
-API_SECRET - Twitter API Secret<br>  
-ACCESS_TOKEN - Twitter Access Token (for OAuth)<br>  
-ACCESS_TOKEN_SECRET - Twitter Access Token (for OAuth)``
+`API_KEY` - Twitter API key  
+`API_SECRET` - Twitter API Secret   
+`ACCESS_TOKEN` - Twitter Access Token (for OAuth)    
+`ACCESS_TOKEN_SECRET` - Twitter Access Token (for OAuth)  
 
 ### Running the Script
 
