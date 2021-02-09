@@ -6,7 +6,7 @@ The script is designed to be run as a Google Cloud function (or anywhere if you 
 The script creates a dataset called `twitter` and two tables: `public_metrics` and `non_public_organic_metrics` with the following fields:
 
 
-####`public_metrics`
+#### `public_metrics`
 ================
 * id
 * created_at	
@@ -18,7 +18,7 @@ The script creates a dataset called `twitter` and two tables: `public_metrics` a
 * url
 * fetch_date
 
-####`non_public_organic_metrics`
+#### `non_public_organic_metrics`
 ============================
 * id
 * text
@@ -44,9 +44,9 @@ The script creates a dataset called `twitter` and two tables: `public_metrics` a
 
 You must configure the following environment variables:
 
-``API_KEY - Twitter API key  
-API_SECRET - Twitter API Secret  
-ACCESS_TOKEN - Twitter Access Token (for OAuth)  
+``API_KEY - Twitter API key<br>
+API_SECRET - Twitter API Secret<br>  
+ACCESS_TOKEN - Twitter Access Token (for OAuth)<br>  
 ACCESS_TOKEN_SECRET - Twitter Access Token (for OAuth)``
 
 ### Running the Script
