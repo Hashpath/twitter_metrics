@@ -1,7 +1,7 @@
 # Twitter Metrics to Google BigQuery
 
 This script extracts public, non-public, and organic metrics using the Twitter API and writes the data to Google BigQuery. 
-The script is designed to be run as a Google Cloud function (or anywhere if you [set up Google authentication](https://cloud.google.com/bigquery/docs/reference/libraries#client-libraries-install-python).
+The script is designed to be run as a Google Cloud function (or anywhere if you [set up Google authentication](https://cloud.google.com/bigquery/docs/reference/libraries#client-libraries-install-python)).
 
 The script creates a dataset called `twitter` and two tables: `public_metrics` and `non_public_organic_metrics` with the following fields:
 
